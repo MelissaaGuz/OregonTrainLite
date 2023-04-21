@@ -27,7 +27,7 @@ public class Traveler {
             this.food = this.food + 100;
 
             //if not, 0 to their food
-            return "The hunt was successful for" + this.name + "and their food is now at: " + this.food;
+            return "The hunt was successful for " + this.name + "and their food is now at: " + this.food;
 
         }
 
@@ -38,7 +38,7 @@ public class Traveler {
             if (this.getFood() >= 20) {
 
                 this.setFood(this.getFood() - 20);
-                return "Man that was delicious";
+                return "Man that was delicious! ";
             } else {
                 this.setHealthy(false);
                 this.setHealth(0);
